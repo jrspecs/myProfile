@@ -1,119 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Project Idea</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-/* Style the list inside the menu */
-nav ul {
+body {margin:0;}
+ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+li {
+  float:left;
 }
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: red;
 }
 </style>
 </head>
 <body>
 
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="interestInIT.html">Interest In IT</a></li>
+  <li><a href="idealJob.html">Ideal Job</a></li>
+  <li><a href="onlineTests.html">Online Tests</a></li>
+  <li><a class="active" href="projectIdea.html">Project Idea</a></li>
+</ul>
 
-<header>
-  <h2>About Me</h2>
-</header>
+<div style="padding:20px;margin-top:30px;background-color:lightgrey;height:1500px;">
+  <h1>Project Idea</h1>
+  <p>Haven’t caught a feed in years? Want to catch that big fish? If only you could see whats going on under that water ……we aim to deliver a user friendly seafloor map application that can be easily used by anglers, boaters, explorers and anyone interested in what’s laying beneath the water. With this app installed on a device the user can see in real time the bottom of the seafloor using augmented reality to produce a 3d image of the seafloor.</p>
+<p>In Australia up to 5 million aussies enjoy wetting a line as a hobby annually, not to mention our thriving seafood market which is worth billions annually, we are a nation who lives by the sea and also needs the sea to live. This app has a huge market of consumers who would love to get their hands on it. Due to the major advantage any fisherperson has by using this app I believe it will be released as a paid app</p>
+<p>The seafloor map app combines several technologies to create a unique mapping process and user friendly map, first of all we had to scan the sea bed using 3D environment laser scanning which also stores location information, this data stored on our servers, our database constantly growing and hope to ultimately map the entire ocean floor. We have implemented augmented reality in to the seafloor map app, simply open the seafloor map app point your camera of the device at the body of water you would like to map and it will show a 3d image of the sea bed from where the user stands.</p>
+<p>Seafloor map app will be available on ios and android, all you need is a compatible device and the app installed and you can unlock the gift of seeing through water. Seafloor map app has an in build social area where users can share and find fishing spots and 24/7 online support.</p>
+<p>To achieve all this, we need to obtain vessels that can mount the 3d environment laser scanner and start scanning the sea floor to begin our database of maps, this is a never-ending process as the sea floor changes it will be difficult to keep maps up to date but with enough vessels we can keep our database updated regularly. Once we have a decent database of maps we need to write the software and test.</p>
+<p>If this product is successful I expect to see people catching a lot more fish, if this is the case we could possibly have a problem with fish numbers lowering and possible extinction of our favourite fish species. On the plus side this would show that this product works.</p>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Interest In I.T.</a></li>
-      <li><a href="#">Ideal Job</a></li>
-      <li><a href="#">Online tests</a></li>
-      <li><a href="">Project Idea</a></li>
-    </ul>
-  </nav>
+
   
-  <article>
-    <h1>Project Idea</h1>
- <p>Haven’t caught a feed in years? Want to catch that big fish? If only you could see whats going on under that water ……we aim to deliver a user friendly seafloor map application that can be easily used by anglers, boaters, explorers and anyone interested in what’s laying beneath the water. With this app installed on a device the user can see in real time the bottom of the seafloor using augmented reality to produce a 3d image of the seafloor.<br>
-
-In Australia up to 5 million aussies enjoy wetting a line as a hobby annually, not to mention our thriving seafood market which is worth billions annually, we are a nation who lives by the sea and also needs the sea to live. This app has a huge market of consumers who would love to get their hands on it. Due to the major advantage any fisherperson has by using this app I believe it will be released as a paid app<br>
-
-The seafloor map app combines several technologies to create a unique mapping process and user friendly map, first of all we had to scan the sea bed using 3D environment laser scanning which also stores location information, this data stored on our servers, our database constantly growing and hope to ultimately map the entire ocean floor. We have implemented augmented reality in to the seafloor map app, simply open the seafloor map app point your camera of the device at the body of water you would like to map and it will show a 3d image of the sea bed from where the user stands.<br>
-
-Seafloor map app will be available on ios and android, all you need is a compatible device and the app installed and you can unlock the gift of seeing through water. Seafloor map app has an in build social area where users can share and find fishing spots and 24/7 online support.<br>
-
-To achieve all this, we need to obtain vessels that can mount the 3d environment laser scanner and start scanning the sea floor to begin our database of maps, this is a never-ending process as the sea floor changes it will be difficult to keep maps up to date but with enough vessels we can keep our database updated regularly. Once we have a decent database of maps we need to write the software and test.<br>
-
-If this product is successful I expect to see people catching a lot more fish, if this is the case we could possibly have a problem with fish numbers lowering and possible extinction of our favourite fish species. On the plus side this would show that this product works.</p>
-  </article>
-</section>
-
-<footer>
-  <p>contact me:</p>
-  <p>s3799288@student.rmit.edu.au
-</footer>
+</div>
 
 </body>
 </html>
 
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
